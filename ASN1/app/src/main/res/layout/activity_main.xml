@@ -23,12 +23,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
-        android:text="<"
+        android:text="@string/prev_val"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/btnTrue"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <Button
         android:id="@+id/btnTrue"
@@ -36,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
-        android:text="true"
+        android:text="@string/true_val"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/btnPrev"
@@ -49,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
-        android:text="false"
+        android:text="@string/false_val"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/btnTrue"
@@ -62,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
-        android:text=">"
+        android:text="@string/next_Value"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/btnFalse"
